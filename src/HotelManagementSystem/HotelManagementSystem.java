@@ -13,7 +13,7 @@ import java.awt.event.ActionListener;
 
 public class HotelManagementSystem extends JFrame implements ActionListener {
 
-    HotelManagementSystem() {
+    public HotelManagementSystem() {
         setBounds(100, 100, 1366, 565);
 
         ImageIcon homepage_image = new ImageIcon(ClassLoader.getSystemResource("icons/first.jpg"));
@@ -40,7 +40,7 @@ public class HotelManagementSystem extends JFrame implements ActionListener {
         
     }
 
-    public static void main(String[] args) throws Exception {
+     public static void main(String[] args) throws Exception {
         new HotelManagementSystem();
-    }
+     }
 }
